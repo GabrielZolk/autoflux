@@ -21,7 +21,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-  
+
 .navbar nav {
     display: flex;
     align-items: center;
@@ -51,6 +51,7 @@
 .navbar nav ul li {
     margin-right: 30px;
     transition: .3s;
+    cursor: pointer;
 }
 
 .navbar nav ul li:hover {
@@ -110,9 +111,9 @@
 .container .bottom-content button.btn-glow {
     position: relative;
     overflow: hidden;
-  }
-  
-  .container .bottom-content button.btn-glow::before {
+}
+
+.container .bottom-content button.btn-glow::before {
     content: '';
     position: absolute;
     top: 0;
@@ -122,9 +123,88 @@
     background-color: white;
     z-index: 1;
     transition: left 0.4s ease;
-  }
-  
-  .container .bottom-content button.btn-glow:hover::before {
+}
+
+.container .bottom-content button.btn-glow:hover::before {
     left: 100%;
-  }
-  
+}
+
+.bx-menu {
+    display: none;
+}
+
+.bx-menu .bar {
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    margin-bottom: 4px;
+}
+
+.menu.show {
+    display: block;
+}
+
+@media (max-width: 955px) {
+    .mid-content h2 {
+        font-size: 1.6rem !important;
+    }
+
+    .navbar nav {
+        display: none;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        width: 200px;
+        background: linear-gradient(to bottom, #2503eb, #AB1C8F);
+        z-index: 1;
+    }
+
+    .navbar nav ul {
+        display: block;
+        margin: 70px 0 0 20px;
+    }
+
+    .navbar nav ul li {
+        margin: 20px;
+        cursor: pointer;
+    }
+
+    .navbar button {
+        margin: 10px 0 0 35px;
+    }
+
+    .bx-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        cursor: pointer;
+        z-index: 2;
+    }
+
+    .menu.show {
+        transform: translateX(0%);
+    }
+
+    .menu {
+        transform: translateX(100%);
+    }
+}
+
+@media (max-width: 655px) {
+    .mid-content h2 {
+        font-size: 1rem !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .mid-content {
+        max-width: 300px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .mid-content h2 {
+        font-size: 1rem !important;
+    }
+}
