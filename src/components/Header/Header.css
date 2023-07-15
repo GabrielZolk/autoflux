@@ -1,0 +1,113 @@
+.navbar {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    align-items: center;
+}
+
+.navbar span {
+    font-size: 2rem;
+    transition: color 0.3s ease;
+    letter-spacing: 8px;
+}
+
+.navbar span:hover {
+    background-image: linear-gradient(to right, #488BD8, #AB1C8F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.navbar nav {
+    display: flex;
+    align-items: center;
+}
+
+.navbar nav button {
+    background-color: black;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 7px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.navbar nav button:hover {
+    background-color: white;
+    color: black;
+}
+
+.navbar nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar nav ul li {
+    margin-right: 30px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.navbar nav ul li:hover {
+    color: wheat;
+}
+
+.bx-menu {
+    display: none;
+}
+
+.bx-menu .bar {
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    margin-bottom: 4px;
+}
+
+.menu.show {
+    display: block;
+}
+
+@media (max-width: 955px) {
+    .navbar nav {
+        display: none;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        width: 200px;
+        background: linear-gradient(to bottom, #2503eb, #AB1C8F);
+        z-index: 1;
+    }
+
+    .navbar nav ul {
+        display: block;
+        margin: 70px 0 0 20px;
+    }
+
+    .navbar nav ul li {
+        margin: 20px;
+        cursor: pointer;
+    }
+
+    .navbar button {
+        margin: 10px 0 0 35px;
+    }
+
+    .bx-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        cursor: pointer;
+        z-index: 2;
+    }
+
+    .menu.show {
+        transform: translateX(0%);
+    }
+
+    .menu {
+        transform: translateX(100%);
+    }
+}
