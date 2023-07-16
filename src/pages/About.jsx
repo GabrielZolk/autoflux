@@ -7,22 +7,23 @@ export default function About() {
       <Header />
       <h2>ABOUT</h2>
       <div className='ab-content'>
-        <p>Bem-vindo ao nosso site dedicado a pessoas apaixonadas por uma combinação única de carros antigos, tecnologia avançada da Tesla e luxo incomparável!</p>
+        <p>Welcome to our website dedicated to people passionate about a unique combination of vintage cars, advanced Tesla technology, and unmatched luxury!</p>
         <br></br>
-        <p>Nós somos um grupo de entusiastas automotivos que compartilha um amor profundo por veículos clássicos, especialmente aqueles que são verdadeiras joias da história automobilística, como o Dodge Challenger, Opala SS, Cobra e Maverick. Acreditamos que esses carros são verdadeiras obras de arte, representando a elegância e a nostalgia de uma época passada.</p>
+        <p>We are a group of automotive enthusiasts who share a deep love for classic vehicles, especially those that are true gems of automotive history, such as the Dodge Challenger, Opala SS, Cobra, and Maverick. We believe that these cars are true works of art, representing the elegance and nostalgia of a bygone era.</p>
         <br></br>
-        <p>No entanto, somos também fascinados pela inovação e pelo futuro da indústria automotiva. É por isso que adicionamos uma pitada de tecnologia moderna aos nossos gostos clássicos, e encontramos inspiração nos carros da Tesla. A combinação da estética intemporal dos carros antigos com a tecnologia de ponta da Tesla é verdadeiramente empolgante para nós. Essa fusão nos permite apreciar a beleza atemporal, ao mesmo tempo em que desfrutamos de todas as vantagens da eletrificação e da condução autônoma.</p>
+        <p>However, we are also fascinated by innovation and the future of the automotive industry. Thats why we have added a touch of modern technology to our classic tastes and found inspiration in Tesla cars. The combination of timeless aesthetics of vintage cars with Tesla cutting-edge technology is truly exciting for us. This fusion allows us to appreciate timeless beauty while enjoying all the advantages of electrification and autonomous driving.</p>
         <br></br>
-        <p>Além disso, o luxo é um elemento essencial para nós. Apreciamos o requinte e o conforto que carros de alta qualidade podem proporcionar. Combinar a elegância dos carros antigos com os recursos luxuosos e as inovações tecnológicas da Tesla é uma experiência única e gratificante.</p>
+        <p>In addition, luxury is an essential element for us. We appreciate the refinement and comfort that high-quality cars can provide. Combining the elegance of vintage cars with the luxurious features and technological innovations of Tesla is a unique and rewarding experience.</p>
         <br></br>
-        <p>Neste site, você encontrará uma variedade de conteúdos relacionados ao nosso tema apaixonante. Desde artigos informativos sobre os modelos clássicos que tanto amamos, até análises aprofundadas sobre a tecnologia e os recursos dos carros da Tesla. Também compartilhamos dicas de manutenção, eventos automotivos e histórias inspiradoras de pessoas que compartilham essa paixão conosco.</p>
+        <p>On this website, you will find a variety of content related to our passionate theme. From informative articles about the classic models we love so much to in-depth analyses of Tesla technology and features. We also share maintenance tips, automotive events, and inspiring stories from people who share this passion with us.</p>
         <br></br>
-        <p>Esperamos que você se sinta em casa neste espaço dedicado aos apaixonados por carros antigos, tecnologia da Tesla e luxo. Junte-se a nós nessa jornada emocionante enquanto exploramos a fusão entre o passado e o futuro da indústria automotiva. Sinta-se à vontade para participar, compartilhar suas próprias histórias e se conectar com outros entusiastas.</p>
+        <p>We hope you feel at home in this space dedicated to vintage car enthusiasts, Tesla technology, and luxury. Join us on this exciting journey as we explore the fusion of the past and future of the automotive industry. Feel free to participate, share your own stories, and connect with other enthusiasts.</p>
         <br></br>
-        <h3>Seja bem-vindo à nossa comunidade de apaixonados por carros antigos, tecnologia da Tesla e luxo!</h3>
+        <h3>Welcome to our community of vintage car, Tesla technology, and luxury enthusiasts!</h3>
         <br></br>
-        <p>Atenciosamente,
-          A Equipe do Nosso Site</p>
+        <p>Best regards,
+          The Team of Our Website</p>
+
       </div>
     </div>
   )

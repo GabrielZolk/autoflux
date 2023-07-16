@@ -22,7 +22,7 @@ export default function Contact() {
         <div className='ct-bg'>
             <Header />
             <div className="contato-container">
-                <h1>Entre em contato</h1>
+                <h1>Get in touch</h1>
                 <form onSubmit={handleSubmit}>
                     <label>
                         Email:
@@ -30,23 +30,23 @@ export default function Contact() {
                     </label>
 
                     <label>
-                        Telefone:
+                        Phone:
                         <input type="text" value={telefone} onChange={(e) => setTelefone(e.target.value)} />
                     </label>
 
                     <label>
-                        Assunto:
+                        Subject:
                         <input type="text" value={assunto} onChange={(e) => setAssunto(e.target.value)} />
                     </label>
 
                     <label>
-                        Mensagem:
+                        Message:
                         <div>
                             <textarea value={texto} onChange={(e) => setTexto(e.target.value)} />
                         </div>
                     </label>
 
-                    <GlassButton type='submit'>Submit</GlassButton>
+                    <GlassButton type='submit' className='ct-button'>Submit</GlassButton>
                 </form>
             </div>
         </div>

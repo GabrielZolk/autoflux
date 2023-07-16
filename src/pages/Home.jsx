@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import GlassButton from '../components/GlassButton/GlassButton';
 import Header from '../components/Header/Header';
 import './Home.css';
@@ -14,9 +15,9 @@ export default function Home() {
         <h2>OLDSCHOOL + TECHNOLOGY + LUXURY</h2>
         <p>Meet perfection in the form of a car.</p>
         <div className='bottom-content'>
-          <GlassButton id='explore' className='btn-glow'>Explore</GlassButton>
-          <GlassButton id='drive' className='btn-glow'>Test Drive</GlassButton>
-          <GlassButton id='reserve' className='btn-glow'>Reserve</GlassButton>
+          <Link to='/exclusive'><GlassButton id='explore' className='btn-glow'>Explore</GlassButton></Link>
+          <Link to='/exclusive'><GlassButton id='drive' className='btn-glow'>Test Drive</GlassButton></Link>
+          <Link to='/exclusive'><GlassButton id='reserve' className='btn-glow'>Reserve</GlassButton></Link>
         </div>
       </div>
     </div>

@@ -53,3 +53,76 @@
 .ex-content #dodge2:hover {
     opacity: 0;
 }
+
+@media (max-width: 1128px) {
+    .ex-content {
+        max-width: 800px;
+    }
+    
+    .ex-content img {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 920px) {
+    .ex-content h3 {
+        text-align: center;
+    }
+
+    .ex-content {
+        max-width: 700px;
+    }
+    
+    .ex-content img {
+        max-width: 400px;
+    }
+
+    .car {
+        display: block;
+        text-align: center;
+    }
+
+    .ex-content .car p {
+        margin-left: 0px;
+    }
+
+    .ex-content #dodge2 {
+        position: absolute;
+        right: 0;
+        margin: auto;
+     }
+}
+
+@media (max-width: 805px) {
+    .ex-content {
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 600px) {
+    .ex-content {
+        max-width: 350px;
+    }
+
+    .ex-content img {
+        max-width: 300px;
+    }
+
+    .ex-content .car p {
+        font-size: .9rem;
+    }
+}
+
+@media (max-width: 410px) {
+    .ex-content {
+        max-width: 250px;
+    }
+
+    .ex-content img {
+        max-width: 200px;
+    }
+
+    .ex-content .car p {
+        font-size: .8rem;
+    }
+}

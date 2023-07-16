@@ -11,7 +11,7 @@ export default function Header() {
 
   return (
     <header className="navbar">
-      <span>AUTOFLUX</span>
+      <Link to='/' id='link'><span>AUTOFLUX</span></Link>
       <nav className={`menu ${showMenu ? 'show' : ''}`}>
         <ul>
           <Link to='/'><li>Start</li></Link>
@@ -20,7 +20,7 @@ export default function Header() {
           <Link to='/about'><li>About Us</li></Link>
           <Link to='/contact'><li>Contact</li></Link>
         </ul>
-        <button>Subscribe</button>
+        <Link to='/exclusive'><button>Subscribe</button></Link>
       </nav>
       <div className='bx-menu' onClick={toggleMenu}>
         <div className='bar'></div>

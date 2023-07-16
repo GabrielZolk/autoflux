@@ -6,6 +6,11 @@
     align-items: center;
 }
 
+.navbar #link {
+    text-decoration: none;
+    color: white;
+}
+
 .navbar span {
     font-size: 2rem;
     transition: color 0.3s ease;
