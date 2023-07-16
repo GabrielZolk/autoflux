@@ -1,0 +1,10 @@
+.ab-bg {
+    background: linear-gradient(to bottom right, #2503eb, #AB1C8F);
+}
+
+.ab-content {
+    max-width: 800px;
+    margin: 0 auto;
+    color: wheat;
+    text-align: center;
+}

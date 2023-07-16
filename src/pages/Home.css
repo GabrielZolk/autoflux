@@ -25,54 +25,6 @@
     margin-top: 50px;
 }
 
-.container .bottom-content button {
-    margin-right: 10px;
-    background-color: transparent;
-    outline: none;
-    padding: 15px 30px;
-    color: white;
-    transition: .3s;
-}
-
-.container .bottom-content #explore {
-    border-color: #4C83CE;
-}
-
-.container .bottom-content #drive {
-    background-clip: padding-box;
-    border: 2px solid transparent;
-    border-image: linear-gradient(to right, #4C83CE, #AB1C8F) 1;
-}
-
-.container .bottom-content #reserve {
-    border-color: #AB1C8F;
-}
-
-.container .bottom-content button:hover {
-    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.7);
-}
-
-.container .bottom-content button.btn-glow {
-    position: relative;
-    overflow: hidden;
-}
-
-.container .bottom-content button.btn-glow::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 20%;
-    height: 100%;
-    background-color: white;
-    z-index: 1;
-    transition: left 0.4s ease;
-}
-
-.container .bottom-content button.btn-glow:hover::before {
-    left: 100%;
-}
-
 @media (max-width: 955px) {
     .mid-content h2 {
         font-size: 1.6rem !important;

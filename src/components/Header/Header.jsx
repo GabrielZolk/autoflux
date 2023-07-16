@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './Header.css';
 import { useState } from 'react';
 
@@ -13,11 +14,11 @@ export default function Header() {
       <span>AUTOFLUX</span>
       <nav className={`menu ${showMenu ? 'show' : ''}`}>
         <ul>
-          <li>Start</li>
-          <li>Exclusive Cars</li>
-          <li>News</li>
-          <li>About Us</li>
-          <li>Contact</li>
+          <Link to='/'><li>Start</li></Link>
+          <Link to='/exclusive'><li>Exclusive Cars</li></Link>
+          <Link to='/news'><li>News</li></Link>
+          <Link to='/about'><li>About Us</li></Link>
+          <Link to='/contact'><li>Contact</li></Link>
         </ul>
         <button>Subscribe</button>
       </nav>
